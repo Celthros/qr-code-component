@@ -1,5 +1,7 @@
 # Frontend Mentor - QR code component
 
+[Github Page test Link](https://celthros.github.io/qr-code-component/)
+
 ![Design preview for the QR code component coding challenge](./preview.jpg)
 
 ## Welcome! 👋
