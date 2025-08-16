@@ -2,6 +2,7 @@
 @use '../abstract/mixins' as mixs;
 
 .qr-img {
+  margin :0;
   img {
 	border-radius: var.$img-border-radius;
 	max-width: 100%;
