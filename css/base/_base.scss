@@ -1,9 +1,12 @@
 @use '../abstract/variables' as var;
 @use '../abstract/mixins' as mixs;
 
-body{
+body {
+  margin: 0 auto;
   font-size: var.$base-font;
+  background-color: var.$slate-300;
   @include mixs.outfit-font;
+
 }
 
 .attribution {
