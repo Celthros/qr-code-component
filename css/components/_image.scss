@@ -3,6 +3,8 @@
 
 .qr-img {
   img {
-	border-radius: 10px;
+	border-radius: var.$img-border-radius;
+	max-width: 100%;
+	height: auto;
   }
 }

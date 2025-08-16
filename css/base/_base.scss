@@ -1,15 +1,30 @@
 @use '../abstract/variables' as var;
 @use '../abstract/mixins' as mixs;
 
+@import './css/vendor/normalize.min.css';
+
 body {
   margin: 0 auto;
   font-size: var.$base-font;
   background-color: var.$slate-300;
   @include mixs.outfit-font;
+  display: flex;
+  justify-content: center; /* horizontal */
+  align-items: center;     /* vertical */
+  height: 100vh;           /* full viewport height */
+  flex-direction: column;
+}
 
+h1, h2, h3, h4, h5, h6 {
+  color: var.$slate-900;
+}
+
+p {
+  color: var.$slate-500;
 }
 
 .attribution {
+  margin-top: 1rem;
   font-size: 0.688rem;
   text-align: center;
 
