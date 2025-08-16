@@ -1,0 +1,32 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "frontend mentor QR Code Component Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-style": "sass --watch css/style.scss style.css",
+    "build-style": "sass css/style.scss style.css",
+    "build-min": "sass css/style.scss style.css --style-compressed"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Celthros/qr-code-component.git"
+  },
+  "keywords": [
+    "sass",
+    "css",
+    "html",
+    "npm"
+  ],
+  "author": "Tyler Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Celthros/qr-code-component/issues"
+  },
+  "homepage": "https://github.com/Celthros/qr-code-component#readme",
+  "dependencies": {
+    "sass": "^1.90.0"
+  }
+}
