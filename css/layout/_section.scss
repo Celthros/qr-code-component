@@ -4,25 +4,24 @@
   background: var.$white-color;
   border-radius: var.$border-radius;
   width: 100%;
-  max-width: 320px;
+  max-width: 20rem;
   text-align: center;
   padding: 1rem 0 2.5rem;
-  filter: drop-shadow(0px 0px 25px rgba(0, 0, 0, 0.04));
+  filter: drop-shadow(var(--qr-drop-shadow));
 
   .qr-content {
 	padding: 0 1rem;
 	text-align: center;
   }
 
-  @media (min-width: 375px) {
+  @media (min-width: 23.4375em) {
 	.qr-content {
 	  padding: 0 2rem;
 	}
   }
 
-  @media (min-width: 1440px) {
+  @media (min-width: 90em) {
 	.qr-content {
-	  // styles for screens 1440px and wider
 	  padding: 0 2rem;
 	}
   }
