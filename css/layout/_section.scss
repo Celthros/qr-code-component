@@ -1,0 +1,22 @@
+@use '../abstract/variables' as var;
+
+.qr-container {
+  background: var.$white-color;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  @media (min-width: 375px) {
+	& {
+	  // styles for screens 375px and wider
+	}
+  }
+
+  @media (min-width: 1440px) {
+	& {
+	  // styles for screens 1440px and wider
+	}
+  }
+}
+

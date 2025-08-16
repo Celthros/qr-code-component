@@ -1,0 +1,8 @@
+@use '../abstract/variables' as var;
+@use '../abstract/mixins' as mixs;
+
+.qr-img {
+  img {
+	border-radius: 10px;
+  }
+}
