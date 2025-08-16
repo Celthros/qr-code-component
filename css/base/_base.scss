@@ -1,0 +1,17 @@
+@use '../abstract/variables' as var;
+@use '../abstract/mixins' as mixs;
+
+body{
+  font-size: var.$base-font;
+  @include mixs.outfit-font;
+}
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+
+  & a {
+	color: var.$slate-blue;
+  }
+
+}
